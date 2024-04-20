@@ -2,9 +2,6 @@
 <html lang="en">
 <head>
 
-<!-- Search Console HTML meta tag -->
-<meta name="google-site-verification" content="eN14aG8BMT9Go2qlYqYhVFA5m36O0LPlXUwyDBxIsGo" />
-<!-- /Search Console HTML meta tag -->
 
      
            <title> Jofawebdev - Website Development | IT Consulting | Digital Marketing </title>
