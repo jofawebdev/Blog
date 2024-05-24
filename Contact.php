@@ -60,7 +60,7 @@ Include_once 'includes/dbh.inc.php';
                 <a class="w3-bar-item w3-button w3-hover-white w3-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
             <i class="fa fa-bars"></i></a>
             
-                <a href="index" class="w3-bar-item w3-button w3-large"><b><span class="w3-text-theme">JOFAWEB</span><span class="w3-text-red">DEV</b></a>
+                <a href="index" class="w3-bar-item w3-button"><b><span class="w3-text-theme">JOFAWEB</span><span class="w3-text-red">DEV</b></a>
 
                 <!-- Float links to the right. Hide them on small screens -->
                 <div class="w3-right">
