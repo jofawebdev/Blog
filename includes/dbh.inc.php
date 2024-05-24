@@ -1,9 +1,9 @@
 <?php
 //connection
 $host = "localhost";
-$username = "jofaweb2_admin";
-$password = "R%6TPM6SdWS*";
-$database="jofaweb2_jofawebdev";
+$username = "root";
+$password = "";
+$database="jofawebdev";
 // Create connection
 $conn = mysqli_connect($host, $username, $password);
 
@@ -15,7 +15,7 @@ if (!$conn) {
 	//echo "Success";
 }
 // Create database
-$sql = "CREATE DATABASE if not exists jofaweb2_jofawebdev";
+$sql = "CREATE DATABASE if not exists jofawebdev";
 $Result=mysqli_query($conn, $sql);
 
 if ($Result) {

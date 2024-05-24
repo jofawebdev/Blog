@@ -34,66 +34,52 @@
           <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue.css">
 
  
-<!-- Navbar (sit on top) -->
-<div class="w3-top w3-theme">
-  <div class="w3-bar w3-content" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-white w3-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="Services" class="w3-bar-item w3-button w3-large"> <b> <span>Jofa</span><span class="w3-text-black">web</span><span>dev</span></b></a>
-    <a href="index" class="w3-bar-item w3-button w3-hide-small"> <b>Home</b></a>
-    
-    <a href="About" class="w3-bar-item w3-button w3-hide-small"><b> About Us</b></a>               
-  
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-button w3-text-black"><b> Services</b> <i class="fa fa-caret-down"></i></button>
-      <div class="w3-dropdown-content w3-bar-block w3-black w3-card-4">
-      <a href="web design & development" class="w3-bar-item w3-button">Web Design & Development</a>
-        <a href="e-commerce website development" class="w3-bar-item w3-button">E-commerce Website Development</a>
-        <a href="digital marketing" class="w3-bar-item w3-button">Digital Marketing</a>
-        <a href="search engine optimization" class="w3-bar-item w3-button">Search Engine Optimization</a>
-        <a href="wordpress development" class="w3-bar-item w3-button">Wordpress Development</a>
-        <a href="ui & ux design" class="w3-bar-item w3-button">UI / UX Design</a>
-      </div>
-    </div>
+<!-- Navbar on Top -->
+<div class="w3-top">
+            <div class="w3-bar w3-white w3-wide w3-padding w3-card" id="myNavbar">
+                <a class="w3-bar-item w3-button w3-hover-white w3-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars"></i></a>
+            
+                <a href="index" class="w3-bar-item w3-button w3-large"><b><span class="w3-text-theme">JOFAWEB</span><span class="w3-text-red">DEV</b></a>
 
-    <a href="Portfolio" class="w3-bar-item w3-button w3-hide-small"><b> Portfolio </b></a> 
-    <a href="Contact" class="w3-bar-item w3-button w3-hide-small"><b> Contact </b></a>
-    <a href="forum" class="w3-bar-item w3-button w3-hide-small"><b> Forum </b></a>
+                <!-- Float links to the right. Hide them on small screens -->
+                <div class="w3-right">
+                    <a href="index" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Home</b></a>
+                    <a href="About" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>About</b></a>
+                    
+                    <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+                        <a href="Services"><button class="w3-button w3-text-theme"> <b>Services</b> <i class="fa fa-caret-down"></i></button></a>
+                        <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black">
+                            <a href="web design & development" class="w3-bar-item w3-button">Web Design & Development</a>
+                            <a href="e-commerce website development" class="w3-bar-item w3-button">E-commerce Website</a>
+                            <a href="digital marketing" class="w3-bar-item w3-button">Digital Marketing</a>
+                            <a href="search engine optimization" class="w3-bar-item w3-button">Search Engine Optimization</a>
+                            <a href="wordpress development" class="w3-bar-item w3-button">WordPress Development</a>
+                            <a href="ui & ux design" class="w3-bar-item w3-button"> UI & UX Design</a>
+                        </div> 
+                    </div>
 
-    <a href="https://www.github.com/jofawebdev" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-github w3-hover-opacity"></i></a>
-    <a href="reg" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-user-circle-o w3-hover-opacity"></i></a>
-    <a href="login" target="_blank" class="w3-bar-item w3-button w3-text-white"><i class="fa fa-user-o w3-hover-opacity"></i></a>
-    
-   </div>
+                    <a href="portfolio" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Portfolio</b></a>
+                    <a href="Contact" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Contact</b></a>
+                    <a href="forum" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Forum</b></a>
+                    <a href="blog" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Blog</b></a>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-black">
-  <a href="index" class="w3-bar-item w3-button w3-hover-white"> Home </a><hr>
-    <a href="About" class="w3-bar-item w3-button w3-hover-white"> About Us </a><hr>
-   
-    <div class="w3-dropdown-click">
-      <button class="w3-button w3-hover-white w3-white" onclick="myFunction()">
-        Services <i class="fa fa-caret-down"></i>
-      </button>
-      <div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
-      <a href="web design & development" class="w3-bar-item w3-button">Web Design & Development</a>
-        <a href="e-commerce website development" class="w3-bar-item w3-button">E-commerce Website Development</a>
-        <a href="digital marketing" class="w3-bar-item w3-button">Digital Marketing</a>
-        <a href="search engine optimization" class="w3-bar-item w3-button">Search Engine Optimization</a>
-        <a href="wordpress development" class="w3-bar-item w3-button">Wordpress Development</a>
-        <a href="ui & ux design" class="w3-bar-item w3-button">UI / UX Design</a>
-      </div>
-    </div>
-  <hr>
-   
-    <a href="Portfolio" class="w3-bar-item w3-button w3-hover-white"> Portfolio </a><hr>
-    <a href="Contact" class="w3-bar-item w3-button w3-hover-white"> Contact </a><hr>
-    <a href="forum" class="w3-bar-item w3-button w3-hover-white"> Forum </a><hr>
-    <a href="reg" class="w3-bar-item w3-button w3-hover-white"> Register </a>
-    
-  </div>
-</div>
+                    <a href="reg" target="_blank" class="w3-bar-item w3-button w3-text-red"><i class="fa fa-user-circle-o w3-hover-opacity"></i></a>
+                    <a href="login" target="_blank" class="w3-bar-item w3-button w3-text-theme"><i class="fa fa-user-o w3-hover-opacity"></i></a>
+                </div>
+            </div>
+
+            <!-- Navbar on small screens -->
+            <div id="navsmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+                <a href="index" class="w3-bar-item w3-button w3-hover-white"><b>Home</b></a><hr>
+                <a href="About" class="w3-bar-item w3-button w3-hover-white"><b>About Us</b></a><hr>
+                <a href="Services" class="w3-bar-item w3-button w3-white"><b>Services</b></a><hr>
+                <a href="Portfolio" class="w3-bar-item w3-button w3-hover-white"><b>Portfolio</b></a><hr>
+                <a href="Contact" class="w3-bar-item w3-button w3-hover-white"><b>Contact</b></a><hr>
+                <a href="forum" class="w3-bar-item w3-button w3-hover-white"><b>Forum</b></a><hr>
+                <a href="blog" class="w3-bar-item w3-button w3-hover-white"><b>Blog</b></a><hr>
+            </div>
+        </div>
 
 </head>
 <br>
@@ -102,7 +88,7 @@
 <body>
 
 <div class="w3-main w3-center" style="max-width:100%;">     
-<br>
+<br><br>
 
 <!--About Us-->
 <header class="w3-display-container w3-wide w3-animate-opacity" id="home">
@@ -394,7 +380,7 @@ navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", 
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
-var x = document.getElementById("navDemo");
+var x = document.getElementById("navsmall");
 if (x.className.indexOf("w3-show") == -1) {
 x.className += " w3-show";
 } else {
