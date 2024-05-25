@@ -53,7 +53,7 @@
                         </div> 
                     </div>
 
-                    <a href="portfolio" class="w3-bar-item w3-button"><b>Portfolio</b></a>
+                    <a href="Portfolio" class="w3-bar-item w3-button"><b>Portfolio</b></a>
                     <a href="Contact" class="w3-bar-item w3-button"><b>Contact</b></a>
                     <a href="forum" class="w3-bar-item w3-button"><b>Forum</b></a>
                     <a href="blog" class="w3-bar-item w3-button"><b>Blog</b></a>

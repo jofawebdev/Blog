@@ -40,7 +40,7 @@
 
           <!-- Navbar on Top -->
         <div class="w3-top">
-            <div class="w3-bar w3-white w3-wide w3-padding w3-card" id="myNavbar">
+            <div class="w3-bar w3-black w3-wide w3-padding w3-card" id="myNavbar">
                 <a class="w3-bar-item w3-button w3-hover-white w3-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
             <i class="fa fa-bars"></i></a>
             
@@ -55,7 +55,7 @@
                         <a href="Services"><button class="w3-button"> <b>Services</b> <i class="fa fa-caret-down"></i></button></a>
                         <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black">
                             <a href="web design & development" class="w3-bar-item w3-button">Web Design & Development</a>
-                            <a href="e-commerce website development" class="w3-bar-item w3-button w3-white">E-commerce Website</a>
+                            <a href="e-commerce website development" class="w3-bar-item w3-button w3-white">E-commerce Website Development</a>
                             <a href="digital marketing" class="w3-bar-item w3-button">Digital Marketing</a>
                             <a href="search engine optimization" class="w3-bar-item w3-button">Search Engine Optimization</a>
                             <a href="wordpress development" class="w3-bar-item w3-button">WordPress Development</a>
@@ -63,7 +63,7 @@
                         </div> 
                     </div>
 
-                    <a href="portfolio" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Portfolio</b></a>
+                    <a href="Portfolio" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Portfolio</b></a>
                     <a href="Contact" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Contact</b></a>
                     <a href="forum" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Forum</b></a>
                     <a href="blog" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Blog</b></a>
@@ -77,7 +77,23 @@
             <div id="navsmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
                 <a href="index" class="w3-bar-item w3-button w3-hover-white"><b>Home</b></a><hr>
                 <a href="About" class="w3-bar-item w3-button w3-hover-white"><b>About Us</b></a><hr>
-                <a href="Services" class="w3-bar-item w3-button w3-white"><b>Services</b></a><hr>
+                
+
+                <div class="w3-dropdown-click">
+                  <button class="w3-button w3-hover-white" onclick="myFunction()">
+                    <b>Services</b> <i class="fa fa-caret-down"></i>
+                  </button>
+                <div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
+                  <a href="web design & development" class="w3-bar-item w3-button">Web Design & Development</a>
+                  <a href="e-commerce website development" class="w3-bar-item w3-button">E-commerce Website Development</a>
+                  <a href="digital marketing" class="w3-bar-item w3-button">Digital Marketing</a>
+                  <a href="search engine optimization" class="w3-bar-item w3-button">Search Engine Optimization</a>
+                  <a href="wordpress development" class="w3-bar-item w3-button">WordPress Development</a>
+                  <a href="ui & ux design" class="w3-bar-item w3-button">UI & UX Design</a>
+                </div>
+                </div>
+                <hr>
+
                 <a href="Portfolio" class="w3-bar-item w3-button w3-hover-white"><b>Portfolio</b></a><hr>
                 <a href="Contact" class="w3-bar-item w3-button w3-hover-white"><b>Contact</b></a><hr>
                 <a href="forum" class="w3-bar-item w3-button w3-hover-white"><b>Forum</b></a><hr>
