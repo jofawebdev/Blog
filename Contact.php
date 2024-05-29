@@ -60,32 +60,32 @@ Include_once 'includes/dbh.inc.php';
                 <a class="w3-bar-item w3-button w3-hover-white w3-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
             <i class="fa fa-bars"></i></a>
             
-                <a href="index" class="w3-bar-item w3-button"><b><span class="w3-text-theme">JOFAWEB</span><span class="w3-text-red">DEV</b></a>
+                <a href="index" class="w3-bar-item w3-button w3-hover-white"><b><span class="w3-text-theme">JOFA</span>WEB<span class="w3-text-red">DEV</span></b></a>
 
                 <!-- Float links to the right. Hide them on small screens -->
                 <div class="w3-right">
-                    <a href="index" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Home</b></a>
-                    <a href="About" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>About</b></a>
+                    <a href="index" class="w3-bar-item w3-button w3-hover-white w3-hide-small w3-hide-medium"><b>Home</b></a>
+                    <a href="About" class="w3-bar-item w3-button w3-hover-white w3-hide-small w3-hide-medium"><b>About</b></a>
                     
                     <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
-                        <a href="Services"><button class="w3-button"> <b>Services</b> <i class="fa fa-caret-down"></i></button></a>
+                        <a href="Services"><button class="w3-button w3-hover-white"> <b>Services</b> <i class="fa fa-caret-down"></i></button></a>
                         <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black">
-                            <a href="web design & development" class="w3-bar-item w3-button">Web Design & Development</a>
-                            <a href="e-commerce website development" class="w3-bar-item w3-button">E-commerce Website Development</a>
-                            <a href="digital marketing" class="w3-bar-item w3-button">Digital Marketing</a>
-                            <a href="search engine optimization" class="w3-bar-item w3-button">Search Engine Optimization</a>
-                            <a href="wordpress development" class="w3-bar-item w3-button">WordPress Development</a>
-                            <a href="ui & ux design" class="w3-bar-item w3-button"> UI & UX Design</a>
+                            <a href="web design & development" class="w3-bar-item w3-button w3-hover-white">Web Design & Development</a>
+                            <a href="e-commerce website development" class="w3-bar-item w3-button w3-hover-white">E-commerce Website Development</a>
+                            <a href="digital marketing" class="w3-bar-item w3-button w3-hover-white">Digital Marketing</a>
+                            <a href="search engine optimization" class="w3-bar-item w3-button w3-hover-white">Search Engine Optimization</a>
+                            <a href="wordpress development" class="w3-bar-item w3-button w3-hover-white">WordPress Development</a>
+                            <a href="ui & ux design" class="w3-bar-item w3-button w3-hover-white"> UI & UX Design</a>
                         </div> 
                     </div>
 
-                    <a href="portfolio" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Portfolio</b></a>
-                    <a href="Contact" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-text-theme"><b>Contact</b></a>
-                    <a href="forum" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Forum</b></a>
-                    <a href="blog" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Blog</b></a>
+                    <a href="portfolio" class="w3-bar-item w3-button w3-hover-white w3-hide-small w3-hide-medium"><b>Portfolio</b></a>
+                    <a href="blog" class="w3-bar-item w3-button w3-hover-white w3-hide-small w3-hide-medium"><b>Blog</b></a>
 
-                    <a href="reg" target="_blank" class="w3-bar-item w3-button w3-text-red"><i class="fa fa-user-circle-o w3-hover-opacity"></i></a>
-                    <a href="login" target="_blank" class="w3-bar-item w3-button w3-text-theme"><i class="fa fa-user-o w3-hover-opacity"></i></a>
+                    <a href="reg" target="_blank" class="w3-bar-item w3-button w3-hover-white w3-text-theme"><i class="fa fa-user-circle-o w3-hover-opacity"></i></a>
+                    <a href="login" target="_blank" class="w3-bar-item w3-button w3-hover-white w3-text-white w3-hide-large"><i class="fa fa-users w3-hover-opacity"></i></a>
+
+                    <a href="Contact" target="_blank"><button class="w3-button w3-round-xxlarge w3-small w3-red w3-hover-white w3-hide-medium w3-hide-small" title="Get in Touch"> CONTACT US </button></a>
                 </div>
             </div>
 
@@ -99,19 +99,18 @@ Include_once 'includes/dbh.inc.php';
                     <b>Services</b> <i class="fa fa-caret-down"></i>
                   </button>
                 <div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
-                  <a href="web design & development" class="w3-bar-item w3-button">Web Design & Development</a>
-                  <a href="e-commerce website development" class="w3-bar-item w3-button">E-commerce Website Development</a>
-                  <a href="digital marketing" class="w3-bar-item w3-button">Digital Marketing</a>
-                  <a href="search engine optimization" class="w3-bar-item w3-button">Search Engine Optimization</a>
-                  <a href="wordpress development" class="w3-bar-item w3-button">WordPress Development</a>
-                  <a href="ui & ux design" class="w3-bar-item w3-button">UI & UX Design</a>
+                  <a href="web design & development" class="w3-bar-item w3-button w3-hover-black">Web Design & Development</a>
+                  <a href="e-commerce website development" class="w3-bar-item w3-button w3-hover-black">E-commerce Website Development</a>
+                  <a href="digital marketing" class="w3-bar-item w3-button w3-hover-black">Digital Marketing</a>
+                  <a href="search engine optimization" class="w3-bar-item w3-button w3-hover-black">Search Engine Optimization</a>
+                  <a href="wordpress development" class="w3-bar-item w3-button w3-hover-black">WordPress Development</a>
+                  <a href="ui & ux design" class="w3-bar-item w3-button w3-hover-black">UI & UX Design</a>
                 </div>
                 </div>
                 <hr>
                 
                 <a href="Portfolio" class="w3-bar-item w3-button w3-hover-white"><b>Portfolio</b></a><hr>
                 <a href="Contact" class="w3-bar-item w3-button w3-white"><b>Contact</b></a><hr>
-                <a href="forum" class="w3-bar-item w3-button w3-hover-white"><b>Forum</b></a><hr>
                 <a href="blog" class="w3-bar-item w3-button w3-hover-white"><b>Blog</b></a><hr>
                 
             </div>

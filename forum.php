@@ -79,36 +79,36 @@ Include_once 'includes/dbh.inc.php';
 
           <!-- Navbar on Top -->
         <div class="w3-top">
-            <div class="w3-bar w3-white w3-wide w3-padding w3-card" id="myNavbar">
+            <div class="w3-bar w3-black w3-wide w3-padding w3-card" id="myNavbar">
                 <a class="w3-bar-item w3-button w3-hover-white w3-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
             <i class="fa fa-bars"></i></a>
             
-                <a href="index" class="w3-bar-item w3-button"><b><span class="w3-text-theme">JOFAWEB</span><span class="w3-text-red">DEV</a>
+                <a href="index" class="w3-bar-item w3-button w3-hover-white"><b><span class="w3-text-theme">JOFA</span>WEB<span class="w3-text-red">DEV</a>
 
                 <!-- Float links to the right. Hide them on small screens -->
                 <div class="w3-right">
-                    <a href="index" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Home</b></a>
-                    <a href="About" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>About</b></a>
+                    <a href="index" class="w3-bar-item w3-button w3-hover-white w3-hide-small w3-hide-medium"><b>Home</b></a>
+                    <a href="About" class="w3-bar-item w3-button w3-hover-white w3-hide-small w3-hide-medium"><b>About</b></a>
                     
                     <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
-                        <a href="Services"><button class="w3-button"> <b>Services</b> <i class="fa fa-caret-down"></i></button></a>
+                        <a href="Services"><button class="w3-button w3-hover-white w3-text-white"> <b>Services</b> <i class="fa fa-caret-down"></i></button></a>
                         <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black">
-                            <a href="web design & development" class="w3-bar-item w3-button">Web Design & Development</a>
-                            <a href="e-commerce website development" class="w3-bar-item w3-button">E-commerce Website</a>
-                            <a href="digital marketing" class="w3-bar-item w3-button">Digital Marketing</a>
-                            <a href="search engine optimization" class="w3-bar-item w3-button">Search Engine Optimization</a>
-                            <a href="wordpress development" class="w3-bar-item w3-button">WordPress Development</a>
-                            <a href="ui & ux design" class="w3-bar-item w3-button"> UI & UX Design</a>
+                            <a href="web design & development" class="w3-bar-item w3-button w3-hover-white">Web Design & Development</a>
+                            <a href="e-commerce website development" class="w3-bar-item w3-button w3-hover-white">E-commerce Website</a>
+                            <a href="digital marketing" class="w3-bar-item w3-button w3-hover-white">Digital Marketing</a>
+                            <a href="search engine optimization" class="w3-bar-item w3-button w3-hover-white">Search Engine Optimization</a>
+                            <a href="wordpress development" class="w3-bar-item w3-button w3-hover-white">WordPress Development</a>
+                            <a href="ui & ux design" class="w3-bar-item w3-button w3-hover-white"> UI & UX Design</a>
                         </div> 
                     </div>
 
-                    <a href="portfolio" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Portfolio</b></a>
-                    <a href="Contact" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Contact</b></a>
-                    <a href="forum" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Forum</b></a>
-                    <a href="blog" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><b>Blog</b></a>
+                    <a href="portfolio" class="w3-bar-item w3-button w3-hover-white w3-hide-small w3-hide-medium"><b>Portfolio</b></a>
+                    <a href="blog" class="w3-bar-item w3-button w3-hover-white w3-hide-small w3-hide-medium"><b>Blog</b></a>
 
-                    <a href="reg" target="_blank" class="w3-bar-item w3-button w3-text-red"><i class="fa fa-user-circle-o w3-hover-opacity"></i></a>
-                    <a href="login" target="_blank" class="w3-bar-item w3-button w3-text-theme"><i class="fa fa-user-o w3-hover-opacity"></i></a>
+                    <a href="reg" target="_blank" class="w3-bar-item w3-button w3-hover-white w3-text-theme"><i class="fa fa-user-circle-o w3-hover-opacity"></i></a>
+                    <a href="login" target="_blank" class="w3-bar-item w3-button w3-hover-white w3-text-white w3-hide-large"><i class="fa fa-users w3-hover-opacity"></i></a>
+
+                    <a href="Contact" target="_blank"><button class="w3-button w3-red w3-round-xxlarge w3-small w3-hover-white w3-hide-medium w3-hide-small" title="Get in Touch"> CONTACT US </button></a>
                 </div>
             </div>
 
@@ -119,7 +119,6 @@ Include_once 'includes/dbh.inc.php';
                 <a href="Service" class="w3-bar-item w3-button w3-hover-white"><b>Services</b></a><hr>
                 <a href="Portfolio" class="w3-bar-item w3-button w3-hover-white"><b>Portfolio</b></a><hr>
                 <a href="Contact" class="w3-bar-item w3-button w3-hover-white"><b>Contact</b></a><hr>
-                <a href="forum" class="w3-bar-item w3-button white"><b>Forum</b></a><hr>
                 <a href="blog" class="w3-bar-item w3-button w3-hover-white"><b>Blog</b></a><hr>
             </div>
         </div>
@@ -232,14 +231,14 @@ while($row=mysqli_fetch_array($result))
 
 
 <!-- Footer Section -->
-<footer class="w3-padding-24 w3-small w3-center" id="footer">
+<footer class="w3-padding-24 w3-theme w3-center" id="footer">
   <div class="w3-row-padding">
   
   <!-- footer social -->
   <div class="col-md-3 col-sm-6 col-xs-6">      
   <h6 class="footer-header w3-text-white"><b>FOLLOW US</b></h6>
 
-<p class="w3-text-orange">You can follow us on:</p>
+<p class="w3-text-black">You can follow us on:</p>
 
 <div class="footer-social">
   <a href="https://github.com/jofawebdev/" target="_blank"><i class="fa fa-github"></i></a>

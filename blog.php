@@ -30,36 +30,36 @@
 
         <!-- Navbar on Top -->
         <div class="w3-top">
-            <div class="w3-bar w3-theme w3-wide w3-padding w3-card" id="myNavbar">
+            <div class="w3-bar w3-black w3-wide w3-padding w3-card" id="myNavbar">
                 <a class="w3-bar-item w3-button w3-hover-white w3-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
             <i class="fa fa-bars"></i></a>
             
-                <a href="index" class="w3-bar-item w3-button"><b>Jofaweb</b>Dev</a>
+                <a href="index" class="w3-bar-item w3-button w3-hover-white"><b><span class="w3-text-theme">JOFA</span>WEB<span class="w3-text-red">DEV</span></b></a>
 
                 <!-- Float links to the right. Hide them on small screens -->
-                <div class="w3-right w3-hide-small">
-                    <a href="index" class="w3-bar-item w3-button"><b>Home</b></a>
-                    <a href="About" class="w3-bar-item w3-button"><b>About</b></a>
+                <div class="w3-right">
+                    <a href="index" class="w3-bar-item w3-button w3-hover-white w3-hide-small w3-hide-medium"><b>Home</b></a>
+                    <a href="About" class="w3-bar-item w3-button w3-hover-white w3-hide-small w3-hide-medium"><b>About</b></a>
                     
-                    <div class="w3-dropdown-hover w3-hide-small">
-                        <a href="Services"><button class="w3-button"> <b>Services</b> <i class="fa fa-caret-down"></i></button></a>
+                    <div class="w3-dropdown-hover w3-hide-small w3-hide-medium">
+                        <a href="Services"><button class="w3-button w3-hover-white"> <b>Services</b> <i class="fa fa-caret-down"></i></button></a>
                         <div class="w3-dropdown-content w3-bar-block w3-card-4 w3-black">
-                            <a href="web design & development" class="w3-bar-item w3-button">Web Design & Development</a>
-                            <a href="e-commerce website development" class="w3-bar-item w3-button">E-commerce Website</a>
-                            <a href="digital marketing" class="w3-bar-item w3-button">Digital Marketing</a>
-                            <a href="search engine optimization" class="w3-bar-item w3-button">Search Engine Optimization</a>
-                            <a href="wordpress development" class="w3-bar-item w3-button">WordPress Development</a>
-                            <a href="ui & ux design" class="w3-bar-item w3-button"> UI & UX Design</a>
+                            <a href="web design & development" class="w3-bar-item w3-button w3-hover-white">Web Design & Development</a>
+                            <a href="e-commerce website development" class="w3-bar-item w3-button w3-hover-white">E-commerce Website Development</a>
+                            <a href="digital marketing" class="w3-bar-item w3-button w3-hover-white">Digital Marketing</a>
+                            <a href="search engine optimization" class="w3-bar-item w3-button w3-hover-white">Search Engine Optimization</a>
+                            <a href="wordpress development" class="w3-bar-item w3-button w3-hover-white">WordPress Development</a>
+                            <a href="ui & ux design" class="w3-bar-item w3-button w3-hover-white"> UI & UX Design</a>
                         </div> 
                     </div>
 
-                    <a href="Portfolio" class="w3-bar-item w3-button"><b>Portfolio</b></a>
-                    <a href="Contact" class="w3-bar-item w3-button"><b>Contact</b></a>
-                    <a href="forum" class="w3-bar-item w3-button"><b>Forum</b></a>
-                    <a href="blog" class="w3-bar-item w3-button"><b>Blog</b></a>
+                    <a href="portfolio" class="w3-bar-item w3-button w3-hover-white w3-hide-small w3-hide-medium"><b>Portfolio</b></a>
+                    <a href="blog" class="w3-bar-item w3-button w3-hover-white w3-hide-small w3-hide-medium"><b>Blog</b></a>
 
-                    <a href="reg" target="_blank" class="w3-bar-item w3-button w3-text-white"><i class="fa fa-user-circle-o w3-hover-opacity"></i></a>
-                    <a href="login" target="_blank" class="w3-bar-item w3-button w3-text-white"><i class="fa fa-user-o w3-hover-opacity"></i></a>
+                    <a href="reg" target="_blank" class="w3-bar-item w3-button w3-hover-white w3-text-theme"><i class="fa fa-user-circle-o w3-hover-opacity"></i></a>
+                    <a href="login" target="_blank" class="w3-bar-item w3-button w3-hover-white w3-text-white w3-hide-large"><i class="fa fa-users w3-hover-opacity"></i></a>
+
+                    <a href="Contact" target="_blank"><button class="w3-button w3-round-xxlarge w3-small w3-red w3-hover-white w3-hide-medium w3-hide-small" title="Get in Touch"> CONTACT US </button></a>
                 </div>
             </div>
 
@@ -67,25 +67,145 @@
             <div id="navsmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
                 <a href="index" class="w3-bar-item w3-button w3-hover-white"><b>Home</b></a><hr>
                 <a href="About" class="w3-bar-item w3-button w3-hover-white"><b>About Us</b></a><hr>
-                <a href="Services" class="w3-bar-item w3-button w3-hover-white"><b>Services</b></a><hr>
+                
+                <div class="w3-dropdown-click">
+                  <button class="w3-button w3-hover-white" onclick="myFunction()">
+                    <b>Services</b> <i class="fa fa-caret-down"></i>
+                  </button>
+                <div id="demo" class="w3-dropdown-content w3-bar-block w3-card">
+                  <a href="web design & development" class="w3-bar-item w3-button w3-hover-black">Web Design & Development</a>
+                  <a href="e-commerce website development" class="w3-bar-item w3-button w3-hover-black">E-commerce Website Development</a>
+                  <a href="digital marketing" class="w3-bar-item w3-button w3-hover-black">Digital Marketing</a>
+                  <a href="search engine optimization" class="w3-bar-item w3-button w3-hover-black">Search Engine Optimization</a>
+                  <a href="wordpress development" class="w3-bar-item w3-button w3-hover-black">WordPress Development</a>
+                  <a href="ui & ux design" class="w3-bar-item w3-button w3-hover-black">UI & UX Design</a>
+                </div>
+                </div>
+                <hr>
+                
                 <a href="Portfolio" class="w3-bar-item w3-button w3-hover-white"><b>Portfolio</b></a><hr>
                 <a href="Contact" class="w3-bar-item w3-button w3-hover-white"><b>Contact</b></a><hr>
-                <a href="forum" class="w3-bar-item w3-button w3-hover-white"><b>Forum</b></a><hr>
-                <a href="reg" class="w3-bar-item w3-button w3-hover-white"><b>Register</b></a><hr>
+                <a href="blog" class="w3-bar-item w3-button w3-white"><b>Blog</b></a><hr>
+                
             </div>
         </div>
 
+
+</head>
+<br>
+
+
+    <!-- !PAGE CONTENT! -->
+<body>
+
+
+<div class="w3-main w3-center" style="max-width:100%;">     
+<br>
+
+        <!-- Pagination -->
+  <div class="w3-small w3-content text-center">
+  <ul class="pagination">
+    <li><a href="index">1</a></li>
+    <li><a href="About">2</a></li>
+    <li><a href="Services">3</a></li>
+    <li><a href="Portfolio">4</a></li>
+    <li><a href="Contact">5</a></li>
+    <li class="active"><a href="blog">6</a></li>
+    <li><a href="reg">7</a></li>
+    
+  </ul>
+</div>
+<hr>      
+<!-- /Pagination -->
+
+        <!-- Footer Section -->
+<footer class="w3-padding-24 w3-center w3-black w3-small" id="footer">
+  <div class="w3-row-padding">
+  
+  <!-- footer social -->
+  <div class="col-md-3 col-sm-6 col-xs-6">      
+  <h6 class="footer-header w3-text-theme"><b>FOLLOW US</b></h6>
+
+<p>You can follow us on:</p>
+
+<div class="footer-social">
+  <a href="https://github.com/jofawebdev/" target="_blank"><i class="fa fa-github"></i></a>
+  <a href="https://twitter.com/jofawebdev?t=jQDsP6tBn_-jooxh8zV1CQ&s" target="_blank"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.instagram.com/jofawebdev/" target="_blank"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.pinterest.com/jofawebdev/" target="_blank"><i class="fa fa-pinterest"></i></a>
+  <a href="https://www.linkedin.com/in/geoffrey-mbungi-86a6411ba/" target="_blank"><i class="fa fa-linkedin"></i></a>
+</div>
+
+</div>
+<!-- /footer social -->
+    
+
+<!-- Footer Contact -->
+    <div class="col-md-3 col-sm-6 col-xs-6">
+      <h6 class="w3-text-theme"><b>CONTACT US</b></h6>
+      <p><a href="Contact">QUESTIONS</a></p>
+      <p><a href="forum">HELP</a></p>
+      <p><i class="fa fa-fw fa-map-marker"></i>
+        <a href="https://www.google.com/maps?client=firefox-b-d&um=1&ie=UTF-8&fb=1&gl=ke&sa=X&geocode=KQPuJ7ykPy8YMTkbEPu3y6M0&daddr=Utawala+Cres+Ct,+Nairobi" target="_blank">
+         JOFAWEBDEV </a></p>
+
+        <p><i class="fa fa-fw fa-phone"></i>
+        <a href="tel:+254-793-004-632"> +254-793-004-632 </a></p>
         
-    </head>
-    <br>
+        <p><i class="fa fa-fw fa-envelope"></i>
+        <a href="mailto:info@jofawebdev.com" target="_blank">
+         info@jofawebdev.com </a></p>
+      </div>
+<!-- /Footer Contact -->
 
 
-    <!-- Page Content -->
-    <body>
-        <div class="w3-main w3-center" style="max-width: 100%;">
+<!-- Footer menu -->
+      <div class="col-md-3 col-sm-6 col-xs-6">
+      <h6 class="w3-text-theme"><b>QUICK LINKS</b></h6>
+      <p><a href="index">Home</a></p>
+      <p><a href="About">About Us</a></p>
+      <p><a href="Services">Services</a></p>
+      <p><a href="Portfolio">Portfolio</a></p>
+      <p><a href="Contact">Contact</a></p>
+      <p><a href="forum">Review</a></p>
+      <p><a href="reg">Register</a></p>
+      </div>
+<!-- /Footer menu -->
 
-        <!-- End page Content -->
-        </div>
+
+<!-- Footer Services -->
+      <div class="col-md-3 col-sm-6 col-xs-6">
+      <h6 class="w3-text-theme"><b>SERVICES</b></h6>
+      <p><a href="web design & development"> Web Design & Development </a></p>
+      <p><a href="e-commerce website development"> E-commerce Website Development </a></p>
+      <p><a href="digital marketing"> Digital Marketing </a></p>
+      <p><a href="Search engine optimization"> Search Engine Optimization </a></p>
+      <p><a href="wordpress development"> Wordpress Development </a></p>
+      <p><a href="ui & ux design"> UI / UX Design </a></p>
+      
+    </div>
+<!-- /Footer Services -->
+
+  </div>
+
+  <!--To the Top button-->
+  <div class="w3-container w3-center">
+  <a href="#" button class="w3-button w3-orange">
+    <i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</div>
+
+</footer>
+<!-- /Footer Section -->
+
+<!-- Copyright -->
+<div class="w3-copyright w3-small w3-container w3-padding w3-theme w3-center">
+  &copy; 2019 - 2024 Jofawebdev. All Rights Reserved.
+</div>
+<!-- /Copyright -->
+
+
+<!-- End page Content -->
+</div>
 
         <!--Start Javascript-->
 <script>          
