@@ -110,76 +110,84 @@
   <!--Page slideshow Container--> 
   
   <div class="w3-section" style="width:100%">
-    <img class="mySlides" src="images/Web-Design-and-Development-Banner-1030x359.jpg" alt="" style="width:100%">
     <img class="mySlides" src="images/digital-marketing-banner.png" alt="" style="width:100%">
+    <img class="mySlides" src="images/make-digital-banner.jpg" alt="" style="width:100%">
+    <img class="mySlides" src="images/upqode-services-web-design.jpeg" alt="" style="width:100%">
+    <img class="mySlides" src="images/Web-Design-and-Development-Banner-1030x359.jpg" alt="" style="width:100%">
     <img class="mySlides" src="images/internet-marketing2.jpg" alt="" style="width:100%">
 </div>
 
-
-<hr>
  
  <!--welcome-->
-      <div class="w3-content w3-padding-small w3-padding">
-     <h4><b> DIGITAL MARKETING <span class="w3-text-theme">SERVICES FOR YOUR</span> BUSINESS SUCCESS</b></h4>
+      <div class="w3-content w3-padding">
+     <h4><b> DIGITAL MARKETING <span class="w3-text-red">SERVICES FOR YOUR</span> BUSINESS SUCCESS</b></h4>
      <h5 class="w3-text-theme"><b>Elevate Your Online Presence</b></h5>
 
      <div class="w3-row-padding">
     <div class="w3-half">
-       <div class="w3-text-center w3-container w3-padding-small">
+       <div class="w3-container">
          <img src="images/pin81.jpg" style="display:inline" 
-          alt="" width="100%"><br><br>
+          alt="Marketing Strategy" width="100%">
          
-          <div class="w3-center w3-margin-bottom w3-padding-small">
-      <a href="About" target=""><button class="w3-button w3-theme" title="click here for more"> Read more </button></a>
+          <div class="w3-center w3-padding-16">
+      <a href="About" target=""><button class="w3-button w3-round-xxlarge w3-red w3-hover-black" title="click here for more"> Learn More </button></a>
       </div>
-
-          <hr>          
+      
           </div>
     </div>
     
           
       <div class="w3-half">
-  <div class="tab-content w3-container">
-  <p style="text-align: center;">We are a full-service digital marketing agency located in Nairobi. Jofawebdev was founded with the intention of aiding businesses in Kenya and
+  <div class="w3-container">
+  <p style="text-align: left;">We are a full-service digital marketing agency located in Nairobi. Jofawebdev was founded with the intention of aiding businesses in Kenya and
    throughout the world to achieve online success by using edge-crossing strategies. We have a wealth of experience working with our diverse public and private sector clients,
     which includes both small and large businesses.</p>
-  </div>
-  <p style="text-align: center;">We adopt a strategy-first approach to deliver meaningful results to our consumers. Our team of digital marketing specialists,
+
+  <p style="text-align: left;">We adopt a strategy-first approach to deliver meaningful results to our consumers. Our team of digital marketing specialists,
    with a wide range of talents and specialities, is dedicated to aiding our clients in accomplishing their goals.</p>
       
       
       </div>
 </div>
+
 </div>
+      </div>
       <hr>
 
-  
       <!-- paragraph section-->
       <div class="w3-light-grey">
-      <div class="w3-content w3-padding-24 w3-padding-small">
-      <h4><b> Quality Website Design Tailored To Your<span class="w3-text-theme"> Demands And Those Of Your Business</span></b></h4>  
-      <div class="tab-content w3-container w3-justify w3-padding-small">
-          <p style="text-align: center;"> As a leading Web Development firm, we know what it takes to boost the growth of your business.
+      <div class="w3-content w3-padding">
+      <h2><b>Quality Website Design Tailored To Your<span class="w3-text-theme"> Demands And Those Of Your Business</span></b></h2>  
+      <div class="tab-content w3-container">
+          <p>As a leading Web Development firm, we know what it takes to boost the growth of your business.
                 We will help you choose the right platform, create an intuitive design to convert sales visits and write code that offers standard security for your online shop.
                 What is setting us apart is our commitment to excellence and our ability to turn complex e-commerce challenges into seamless solutions. Our approach has always
                 been centered around understanding your unique business needs and goals and delivering customized solutions that will at the end of the day drive results.</p>
                 
-              <p style="text-align: center">  If you're looking to launch a new online store or upgrade existing website, we have the experience and expertise to help you get the desired outcome.
+              <p>If you're looking to launch a new online store or upgrade existing website, we have the experience and expertise to help you get the desired outcome.
                 We create e-Commerce websites using major platforms & CMS, including Wordpress, Woocommerce, Magento, Shopify, Drupal, etc. Our developers will choose the
                 right plaftform, CMS or Framework depending on your business. </p>
                   
 
 </div>
 </div>
-<hr>
+
+<div class="w3-container w3-padding-16">
+<a href="Contact" target=""><button class="w3-button w3-round-xxlarge w3-red w3-hover-black w3-center" title="click here for more"> GET IN TOUCH </button></a>
 </div>
+
+</div>
+<hr>
 
 <!-- /End Paragraph -->
 
 
 <div style="background-image: url(images/backgroundWEB.jpg); background-attachment: fixed;  
   background-size: cover; background-repeat: no-repeat;" style="width: 100%;">
-<div class="w3-content w3-padding-32 w3-padding-small">
+<div class="w3-content w3-padding-24">
+<h4 class="w3-text-white"><b> We have developed a straightforward website design & development process to ensure that we fulfill and even exceed
+     our clients' expectations</b></h4>
+
 <div class="w3-row-padding">
   <div class="w3-half">
     <div class="w3-tab-content w3-container">
@@ -191,19 +199,14 @@
 
 
 <div class="w3-half">
-<p class="w3-text-white"><b> We have developed a straightforward website design & development process to ensure that we fulfill and even exceed
-     our clients' expectations.</b></p>
      
-  <div class="w3-tab-content w3-container w3-justify w3-text-white">
-  <ul>
-      <li> Responsive and Customized Website Design.</li>
-      <li> Content Management System (CMS) Integration.</li>
-      <li> Secure Integration of Hosting and Payment Gateways.</li>
-      <li> Quick Page Loading and Browser Compatibility. </li>
-      <li> Improved Call To Action (CTA) and User Experience (UX) Design.</li>
-      <li> Social Media Marketing and Search Engine Optimization (SEO) Integration.</li>
-</ul>
-
+  <div class="w3-container w3-text-white">
+      <p style="text-align: left;">Responsive and Customized Website Design.</p>
+      <p style="text-align: left;">Content Management System (CMS) Integration.</p>
+      <p style="text-align: left;">Secure Integration of Hosting and Payment Gateways.</p>
+      <p style="text-align: left;">Quick Page Loading and Browser Compatibility.</p>
+      <p style="text-align: left;">Improved Call To Action (CTA) and User Experience (UX) Design.</p>
+      <p style="text-align: left;">Social Media Marketing and Search Engine Optimization (SEO) Integration.</p>
 
 </div>
 </div>
@@ -217,26 +220,25 @@
 <!-- Container (Services Section) -->
 <div style="background-image: url(images/digital-marketing.jpg); background-attachment: fixed;  
   background-size: cover; background-repeat: no-repeat;" style="width: 100%;">
-<div class="w3-small w3-padding-32">
-<div class="w3-content w3-padding-small">
+<div class=" w3-content w3-padding-32">
 
-  <h3 class="w3-center w3-xxlarge w3-bold" class="vc_custom_heading"><span class="w3-text-black"><b>OUR SERVICES </b></span></h3>
-  <p class="w3-center w3-text-theme w3-large"><b>We Handle All Aspects of Digital Marketing Services in Kenya</b></p>
+<div class="w3-container">
+
+  <h2 class="w3-center w3-bold" class="vc_custom_heading"><span class="w3-text-black"><b>OUR SERVICES </b></span></h2>
+  <h4 class="w3-center"><b>We Handle All Aspects of Digital Marketing Services in Kenya</b></h4>
 
   <div class="w3-row-padding">
     
-  <div class="w3-third w3-container">
-      <div class="w3-card-4 w3-white w3-padding-small">
+  <div class="w3-third">
+      <div class="w3-card-4 w3-white">
         <img src="images/webdesign-coimbatore.jpg" style="width:100%" alt="">
-     <p class="w3-large w3-text-orange w3-center"><strong>Website Design & <span class="w3-text-black">Development</span></strong></p>
+     <h5 class="w3-text-red w3-center"><b>Custom Website Design & <span class="w3-text-black">Development</span></b></h5>
       
-      <p>Custom web design simply means a website that is built and designed to meet specific business needs. Every business is unique on its own way and needs a website that
-         reflects the unique brand and aesthetic of the company. We also enhance current online applications' visual appeal, functional breadth, and usability. Our clients see improved
-        ROI through simplified company processes, higher online conversion rates and lower maintenance expenses.</p>
+      <p>Custom web design tailors websites to specific business needs, ensuring uniqueness in reflecting each brand's identity. We also improve existing online applications' visual appeal, functionality, and usability, resulting in enhanced ROI with streamlined processes, increased conversion rates, and reduced maintenance costs.</p>
 
-      <div class="w3-center w3-padding-small">
+      <div class="w3-center w3-padding">
         <a href="web design & development">
-          <button class="w3-button w3-orange" title="click here for more"> Read more <i class="fa fa-arrow-right"></i></button></a>
+          <button class="w3-button w3-theme w3-hover-black" title="click here for more"> Read more <i class="fa fa-arrow-right"></i></button></a>
       </div>
 
 </div>
@@ -244,17 +246,15 @@
 </div>
     
 
-    <div class="w3-third w3-container">
-<div class="w3-card-4 w3-white w3-padding-small">
+    <div class="w3-third">
+<div class="w3-card-4 w3-white">
   <img src="images/webdesign-coimbatore.jpg" style="width:100%" alt="">
-    <p class="w3-large w3-center"><b> E-commerce <span class="w3-text-orange"> Website Development </span></b></p>
-      <p>An eCommerce website is an online platform that allows your business to target new customers who could not be reached by your physical shop. As eCommerce website
-         developers in Kenya, we are going to help you identify the right platform to base your store on. Our secured eCommerce solutions combine professional eCommerce web design
-          with affordable eCommerce services. We cater to both the aesthetics & functional requirements of your website.</p>   
+    <h5><b> E-commerce <span class="w3-text-red"> Website Development </span></b></h5>
+      <p>As Kenya-based eCommerce developers, we craft online business platforms for your business, reaching customers beyond your physical store's limits. Our e-commerce solutions blend sleek design with affordability, addressing both aesthetic and functional needs for a secure, tailored shopping experience.</p>
 
-      <div class="w3-center w3-padding-small">
+      <div class="w3-center w3-padding">
         <a href="e-commerce website development">
-          <button class="w3-button w3-orange" title="click here for more"> Read more <i class="fa fa-arrow-right"></i></button></a>
+          <button class="w3-button w3-theme w3-hover-black" title="click here for more"> Read more <i class="fa fa-arrow-right"></i></button></a>
         </div>
 
     </div>
@@ -262,16 +262,14 @@
 </div>
 
 
-    <div class="w3-third w3-container">
-      <div class="w3-card-4 w3-white w3-padding-small">
+    <div class="w3-third">
+      <div class="w3-card-4 w3-white">
         <img src="images/webdesign-coimbatore.jpg" style="width:100%">
-      <p class="w3-large w3-text-orange w3-center"><strong>Digital Growth | <span class="w3-text-black">Marketing Services</span></strong></p>
-      <p>We use data-driven approaches and have invested a lot in the latest technology and tools to help your business stay up-to date with the latest trends and best practices.
-         We're here to help you grow your business and realise its full potential. We have a team of digital marketing experts devoted throughout their careers to finding
-          innovative ways to raise brand awareness, increase sales, generate leads, and improve search engine rankings.  </p>
-<div class="w3-center w3-padding-small">
+      <h5><b><span class="w3-text-red">Digital Growth</span> | Marketing Services</b></h5>
+      <p>We employ data-driven strategies and cutting-edge technology to keep your business relevant. Our aim is to foster your business growth and unlock its full potential. Our team of seasoned digital marketing experts is dedicated to enhancing brand visibility, boosting sales, generating leads, and optimizing search engine rankings.</p>
+<div class="w3-center w3-padding">
   <a href="digital marketing" target="">
-    <button class="w3-button w3-orange" title="click here for more"> Read more <i class="fa fa-arrow-right"></i></button></a>
+    <button class="w3-button w3-theme w3-hover-black" title="click here for more"> Read more <i class="fa fa-arrow-right"></i></button></a>
   </div>
 
     </div>
@@ -279,32 +277,27 @@
   </div>
 
 </div>
-<!-- end row-->
+<!-- end first row-->
 
 </div>
-</div>
 
 
 
-<div class="w3-small w3-padding-32">
-<div class="w3-content w3-padding-small">
 
+<!-- second services row section -->
+<div class="w3-container">
 <div class="w3-row-padding">
     
-<div class="w3-third w3-container">
-      <div class="w3-card-4 w3-white w3-padding-small">
+<div class="w3-third">
+      <div class="w3-card-4 w3-white">
         <img src="images/webdesign-coimbatore.jpg" style="width:100%" alt="">
-     <p class="w3-large w3-text-orange w3-center"><b>Search Engine <span class="w3-text-black">Optimization</span></b></p>
+     <h5><b>Search Engine <span class="w3-text-red">Optimization</span></b></h5>
       
-      <p> For any business to improve their online visibility and drive traffic to their website, they will need to leverage SEO services. eCommerce SEO is basically optimizing
-         website structure, product listing and description. Our company offers SEO including keyword research, on-page optimization and link building.
-          Search Engine Optimization (SEO) is the process of optimizing a website to rank higher in search engine results (SERPS) and increase organic traffic. 
-          Recent studies have proved that internet users only click on the results that appear on the first page, hence its crucial that your business is optimized for
-           search engines to benefit from this traffic. </p>
+      <p>To enhance online visibility and website traffic, businesses must utilize SEO services, including eCommerce SEO for website structure, product listing, and description optimization. Our SEO solutions cover keyword research, on-page optimization, and link building to boost search engine rankings and organic traffic, crucial for benefiting from first-page clicks.</p>
 
-      <div class="w3-center w3-padding-small">
+      <div class="w3-center w3-padding">
         <a href="search engine optimization">
-          <button class="w3-button w3-orange" title="click here for more"> Read more <i class="fa fa-arrow-right"></i></button></a>
+          <button class="w3-button w3-theme w3-hover-black" title="click here for more"> Read more <i class="fa fa-arrow-right"></i></button></a>
       </div>
 
 </div>
@@ -312,20 +305,16 @@
 </div>
     
 
-    <div class="w3-third w3-container">
-<div class="w3-card-4 w3-white w3-padding-small">
+    <div class="w3-third">
+<div class="w3-card-4 w3-white">
   <img src="images/webdesign-coimbatore.jpg" style="width:100%" alt="">
-    <p class="w3-large w3-center"><b>WordPress <span class="w3-text-orange">Development</span></b></p>
-    <p style="text-align: center;"> We provide a comprehensive range of WordPress development services, including design and customization, plugin and theme development,
-                     and WooCommerce e-commerce solutions, as well as maintenance and support, optimization, security, integration with external tools, mobile-friendly layouts,
-                      speed optimization, search engine optimization, content management, and migrations. We develop e-Commerce websites on WordPress platform. We believe WordPress
-                       is the best place for security, flexibility, added functionality through plugins and ease of use. Our WordPress developers have a vast experience in custom
-                        WordPress plugin development and integration.</p>
-            
+    <h5><b><span class="w3-text-red">WordPress</span> Development</b></h5>
 
-      <div class="w3-center w3-padding-small">
+    <p>We offer extensive WordPress services such as design, WooCommerce solutions, maintenance/support, optimization, security, integration, mobile-friendly layouts, speed, SEO, content management, and migrations. Our expertise lies in e-Commerce development, emphasizing WordPress's security, flexibility, and plugin functionality.</p>
+
+      <div class="w3-center w3-padding">
         <a href="wordpress development">
-          <button class="w3-button w3-orange" title="click here for more"> Read more <i class="fa fa-arrow-right"></i></button></a>
+          <button class="w3-button w3-theme w3-hover-black" title="click here for more"> Read more <i class="fa fa-arrow-right"></i></button></a>
         </div>
 
     </div>
@@ -333,17 +322,15 @@
 </div>
 
 
-    <div class="w3-third w3-container">
-      <div class="w3-card-4 w3-white w3-padding-small">
+    <div class="w3-third">
+      <div class="w3-card-4 w3-white">
         <img src="images/webdesign-coimbatore.jpg" style="width:100%">
-      <p class="w3-large w3-text-orange w3-center"><b>UI & <span class="w3-text-black">UX DESIGN</span></b></p>
-      <p>Increase user engagement with our professional UX/UI design. Is your website or app causing frustration for users? Are you struggling to retain visitors or customers due to a confusing or clunky interface? Our UX researchers have 
-        specialized in transforming digital product or service experiences into user-friendly ones. Our expert designers and developers are here to work with you through consultation
-         and comprehensive market research, understand your users' needs and create a customized solution that meets your business goals. From navigation to content, we optimize every
-          aspect of your website or app to create a seamless and enjoyable user experience. </p>
-<div class="w3-center w3-padding-small">
+      <h5><b>UI & <span class="w3-text-red">UX DESIGN</span></b></h5>
+      <p>Boost user engagement with our top-tier UX/UI design. If your website or app frustrates users or hinders retention, our specialized UX researchers and expert designers can help. Through consultation and market research, we tailor solutions aligned with your business objectives, optimizing every element for a seamless user experience.</p>
+
+<div class="w3-center w3-padding">
   <a href="ui & ux design" target="">
-    <button class="w3-button w3-orange" title="click here for more"> Read more <i class="fa fa-arrow-right"></i></button></a>
+    <button class="w3-button w3-theme w3-hover-black" title="click here for more"> Read more <i class="fa fa-arrow-right"></i></button></a>
   </div>
 
     </div>
@@ -363,41 +350,43 @@
 
 
 <!--Projects Section-->
-<div class="w3-content w3-padding-small w3-padding-24">
-     <h3><b> <span class="">Case</span> Studies</b></h3>
-     <h5 class="w3-text-theme">Your website should be user-friendly and convey your unique selling point. 
-      <span class="w3-text-black">We help you accelerate growth through the design and development of revenue-generating websites.</span></h5>
+<div class="w3-content w3-padding-24">
+  <div class="w3-container">
+     <h2 class="w3-text-theme"><b>Case Studies</b></h2>
+     <p class="w3-text-black">Your website should be user-friendly and convey your unique selling point. We help you accelerate growth through the design and development of revenue-generating websites.</p>
 
      <div class="w3-row-padding">
-    <div class="w3-half">
-       <div class="w3-text-center w3-container w3-padding-small">
-         <img src="images/UX-UI-Design.jpg" style="display:inline" 
-          alt="" width="100%"><br><br>
-         
-          <div class="w3-center w3-margin-bottom w3-padding-small">
-      <a href="web design & development" target=""><button class="w3-button w3-orange" title="click here for more"> Web Design </button></a>
-      </div>
 
-          <hr>          
+    <div class="w3-half">
+       <div class="w3-container">
+         <img src="images/UX-UI-Design.jpg" style="display:inline" 
+          alt="" width="100%">
+        
           </div>
     </div>
     
           
       <div class="w3-half">
   <div class="tab-content w3-container">
-  <p style="text-align: center;">A well-crafted and engaging website is vital to elevate your online presence. We are committed to designing a website that ranks top on search engines and
+  <p style="text-align: left;">A well-crafted and engaging website is vital to elevate your online presence. We are committed to designing a website that ranks top on search engines and
    becomes a source of new leads and conversions. As a web copywriting agency, we have assembled a team of experienced copywriters to create website content that effectively communicates your
-    message and resonates with your audience.</p>
-  </div>
+    message and resonates with your audience.</p><br>
+  
+      <a href="web design & development" target="_blank"><button class="w3-button w3-left w3-red w3-round-xxlarge w3-hover-black" title="click here for more"> GET A QUOTE </button></a>
 
-  <p style="text-align: center;">From landing pages to product descriptions and blog posts, our writers will craft a compelling copy that accurately represents your brand and drives conversions.
+   </div>
+</div>
+
+     </div>
+</div>
+</div>
+<hr>
+
+<div class="w3-content w3-container w3-padding">
+      <p style="text-align: center;">From landing pages to product descriptions and blog posts, our writers will craft a compelling copy that accurately represents your brand and drives conversions.
    We have the skills and experience to deliver high-quality websites that drive results. Please work with us and get well-written, engaging web content optimized for success. We shall train
     your team with website management skills to make changes whenever possible.</p>
-           
-      </div>
 </div>
-</div>
-      <hr>
 
 <!-- /projects header -->
 <!-- First Photo Grid-->
@@ -405,10 +394,10 @@
             <div class="w3-row-padding">
               <div class="w3-third w3-hover-opacity">
                 <div class="w3-container w3-padding-small">
-                <a href="https://www.trumarktechnologies.co.ke" target="_blank">
-                  <img src="images/Trumark3.png" style="width:100%" alt=""></a>
+                <a href="https://sinepowerelectrics.com/" target="_blank">
+                  <img src="images/Screenshot (1).png" style="width:100%" alt=""></a>
                   <div class="w3-container w3-small w3-center w3-black">
-                  <p><b>Trumark Tech</b></p>
+                  <p><b>Sinepower Electrics Ltd</b></p>
                 </div>
                 <hr>
               </div>
@@ -417,10 +406,10 @@
               
               <div class="w3-third w3-hover-opacity">
                 <div class="w3-container w3-padding-small">
-                      <a href="https://www.iquavisuals.com" target="_blank">
-                        <img src="images/iqua.png" style="width:100%" alt=""></a>
+                      <a href="https://niacreation.com/" target="_blank">
+                        <img src="images/Screenshot (2).png" style="width:100%" alt=""></a>
                 <div class="w3-container w3-small w3-center w3-black">
-                  <p><b>Iqua Visuals</b></p>
+                  <p><b>Nia Creation Ltd</b></p>
                 </div>
               <hr>
               </div>
@@ -428,10 +417,10 @@
 
                   <div class="w3-third w3-hover-opacity">
                 <div class="w3-container w3-padding-small">
-                      <a href="https://www.niacreation.com" target="_blank">
-                        <img src="images/creation.png" style="width:100%" alt=""></a>
+                      <a href="https://www.nilababyshop.com" target="_blank">
+                        <img src="images/Screenshot (3).png" style="width:100%" alt=""></a>
                 <div class="w3-container w3-small w3-center w3-black">
-                  <p><b>Nia Creation</b></p>
+                  <p><b>Nila Baby Shop Ltd</b></p>
                 </div>
               <hr>
               </div>
@@ -448,10 +437,9 @@
         </div>
            </div>
            
-                  <div class="w3-center w3-padding-small">
+          <div class="w3-center w3-container">
         <a href="Portfolio">
-          <button class="w3-button w3-orange" title="click here for more"> View More Websites
-            </button></a>
+          <button class="w3-button w3-red w3-hover-black w3-round-xxlarge" title="click here for more"> View More Projects </button></a>
       </div>
 
         <hr>
@@ -462,15 +450,16 @@
 <div class="w3-padding-32 w3-black">
 <div class="w3-content w3-container">
   <h3 class="w3-text-theme w3-center"><b>OUR <span class="w3-text-white">WORK</span> PROCESS</b></h3>
+
   <p class="w3-center">We know that a clear strategy must be in place for every project to guarantee quality control successfully. For this reason, our digital marketing company has created a
-     successful project method.</P>
+     successful project method</P>
   
   <div class="w3-row-padding">
-  <div class="w3-third w3-container">
-<div class="w3-border w3-card w3-white w3-padding-small w3-center">
-  <i class="fa fa-sitemap w3-jumbo w3-text-theme"></i>
-  <h4 class="w3-text-orange"><b> CONSULTATION </b></h4>
-<p class="w3-small">As a web design agency, we're always open and ready to understand your unique website needs. Our team will schedule a consultation with you after
+  <div class="w3-third w3-container w3-hover-opacity">
+<div class="w3-border w3-card w3-white w3-center">
+  <i class="fa fa-sitemap w3-jumbo w3-text-red"></i>
+  <h4 class="w3-text-theme"><b> CONSULTATION </b></h4>
+<p>As a web design agency, we're always open and ready to understand your unique website needs. Our team will schedule a consultation with you after
    you contact us. The discussion will be centred around your current marketing efforts. This will help us analyze your competitors, target audience, and business goals.
     After consultations with you, our team of web developers will then design a stunning website that is user-friendly and fast loading on all devices.</p>
     
@@ -479,11 +468,11 @@
 </div>
 
 
-<div class="w3-third w3-container">
-  <div class="w3-border w3-card w3-white w3-padding-small w3-center">
-    <i class="fa fa-arrow-up w3-jumbo w3-text-theme"></i>
-    <h4><b>STRATEGY <span class="w3-text-orange">DEVELOPMENT</span></b></h4>
-    <p class="w3-small">After the initial consultation phase, our web experts will develop a comprehensive digital marketing strategy such as Web esign, SEO, PPC, social media,
+<div class="w3-third w3-container w3-hover-opacity">
+  <div class="w3-border w3-card w3-white w3-center">
+    <i class="fa fa-arrow-up w3-jumbo w3-text-red"></i>
+    <h4><b>STRATEGY <span class="w3-text-theme">DEVELOPMENT</span></b></h4>
+    <p>After the initial consultation phase, our web experts will develop a comprehensive digital marketing strategy such as Web esign, SEO, PPC, social media,
        content marketing and more. As a client, this will be communicated to you to approve our strategy before we start working on your project. 
        We use data-driven approaches and have invested a lot in the latest technology and tools to help your business stay up-to date with the latest trends and best practices.</p>
 
@@ -492,11 +481,11 @@
 </div>
 
 
-<div class="w3-third w3-container">
-  <div class="w3-border w3-card w3-white w3-padding-small w3-center">
-<i class="fa fa-line-chart w3-jumbo w3-text-theme"></i>
-<h5 class="w3-text-orange"><b>IMPLEMENTATION</b></h5>
-  <p class="w3-small"> After the client has approved our strategy, we can start designing content, optimizing your website for search engines and testing it for quality assurance.
+<div class="w3-third w3-container w3-hover-opacity">
+  <div class="w3-border w3-card w3-white w3-center">
+<i class="fa fa-line-chart w3-jumbo w3-text-red"></i>
+<h5 class="w3-text-theme"><b>IMPLEMENTATION</b></h5>
+  <p> After the client has approved our strategy, we can start designing content, optimizing your website for search engines and testing it for quality assurance.
      As a client, your engagement in this process will also be required. Once your website has been developed, our company will launch the website by updating
       the DNS settings and making it go live. We will also perform final testing to ensure that the website functions and meets all project requirements. </p>
 
@@ -513,20 +502,21 @@
 <!-- /Work process -->
 
 
-
+<div class="w3-container w3-center">
+<h2><b>PLANNING A PROJECT?<span class="w3-text-red"> LET'S TALK!</span></b></h2>
+</div>
   <!-- Pricing Tables -->
   <div style="background-image: url(images/Best-UI-UX-Design-Software.jpg); background-attachment: fixed;  
   background-size: cover; background-repeat: no-repeat;" style="width: 100%;">
 
   <div class="w3-content w3-padding-64">
-  <div class="w3-container text-center w3-small">
-    <h3 class="w3-white w3-text-black w3-padding-small"><strong>PLANNING A PROJECT?<span class="w3-text-red"> LET'S TALK!</span></strong></h3>
-  
+  <div class="w3-container text-center">
+
   <div class="w3-row-padding" style="margin:0 -16px">
     <div class="w3-third w3-margin-bottom">
-      <ul class="w3-ul w3-border w3-white w3-center w3-hover-opacity">
+      <ul class="w3-ul w3-border w3-white w3-center w3-hover-black">
         <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16">Website Design & Development</li>
+        <li class="w3-padding-16">Web Design & Development</li>
         <li class="w3-padding-16">Brand Marketing</li>
         <li class="w3-padding-16">Digital Marketing</li>
         <li class="w3-padding-16">Database Management</li>
@@ -536,15 +526,15 @@
           <span class="w3-opacity">per project</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
-          <a href="Contact"><button class="w3-button w3-orange w3-padding-large w3-hover-black">Sign Up</button></a>
+          <a href="Contact"><button class="w3-button w3-red w3-hover-black">Sign Up</button></a>
         </li>
       </ul>
     </div>
     
     <div class="w3-third w3-margin-bottom">
-      <ul class="w3-ul w3-border w3-white w3-center w3-hover-opacity">
+      <ul class="w3-ul w3-border w3-white w3-center w3-hover-theme">
         <li class="w3-theme w3-xlarge w3-padding-32">Pro</li>
-        <li class="w3-padding-16">Website Design & Development</li>
+        <li class="w3-padding-16">Web Design & Development</li>
         <li class="w3-padding-16">Brand Marketing</li>
         <li class="w3-padding-16">Digital Marketing</li>
         <li class="w3-padding-16">Database Management</li>
@@ -556,15 +546,15 @@
           <span class="w3-opacity">per project</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
-          <a href="Contact"><button class="w3-button w3-orange w3-padding-large w3-hover-black">Sign Up</button></a>
+          <a href="Contact"><button class="w3-button w3-red w3-hover-black">Sign Up</button></a>
         </li>
       </ul>
     </div>
 
     <div class="w3-third">
-      <ul class="w3-ul w3-border w3-white w3-center w3-hover-opacity">
+      <ul class="w3-ul w3-border w3-white w3-center w3-hover-red">
         <li class="w3-red w3-xlarge w3-padding-32">Premium</li>
-        <li class="w3-padding-16">Website Design & Development</li>
+        <li class="w3-padding-16">Web Design & Development</li>
         <li class="w3-padding-16">Brand Marketing</li>
         <li class="w3-padding-16">Digital Marketing</li>
         <li class="w3-padding-16">Database Management</li>
@@ -579,7 +569,7 @@
           <span class="w3-opacity">per project</span>
         </li>
         <li class="w3-light-grey w3-padding-24">
-          <a href="Contact"><button class="w3-button w3-orange w3-padding-large w3-hover-black">Sign Up</button></a>
+          <a href="Contact"><button class="w3-button w3-red w3-hover-black">Sign Up</button></a>
         </li>
       </ul>
     </div>
@@ -594,28 +584,26 @@
 
 
  <!-- Contact Section -->
-            <div class="w3-content w3-padding-24">
-              <div class="w3-container w3-padding-small w3-center">
-              <h1 class="w3-text-theme w3-center"><b>Make an Enquiry</b></h1>
+              <div class="w3-container w3-center">
+              <h2 class="w3-text-theme"><b>Make an Enquiry</b></h2>
               <h5><b>Do you have any questions concerning our services? Get in Touch.</b></h5>
               <p> We may be reached via phone and chat at (+254 793004632) from Monday through Saturday, 8:00 a.m. to 6:00 p.m. You may contact us via email at info@jofawebdev.com as well.
                  You may anticipate a response in two business hours. Sundays and federal holidays are our only days off.</p>
       
               
-            </div>
 </div>
             <!-- /Contact Section-->
 
          
 <!-- Start Pagination -->
-<div class="w3-container w3-small w3-content text-center">
+<div class="w3-container text-center">
   <ul class="pagination">
     <li class="active"><a href="index">1</a></li>
     <li><a href="About">2</a></li>
     <li><a href="Services">3</a></li>
     <li><a href="Portfolio">4</a></li>
     <li><a href="Contact">5</a></li>
-    <li><a href="forum">6</a></li>
+    <li><a href="blog">6</a></li>
     <li><a href="reg">7</a></li>
     
   </ul>
@@ -624,7 +612,7 @@
 
 
 <!-- Begin Footer Section -->
-<footer class="w3-padding-24 w3-black w3-small w3-center" id="footer">
+<footer class="w3-padding w3-container w3-black w3-center w3-small" id="footer">
   <div class="w3-row-padding">
   
   <!-- footer social -->
@@ -635,7 +623,6 @@
 
 <div class="footer-social">
   <a href="https://github.com/jofawebdev/" target="_blank"><i class="fa fa-github"></i></a>
-  <a href="https://twitter.com/jofawebdev?t=jQDsP6tBn_-jooxh8zV1CQ&s" target="_blank"><i class="fa fa-twitter"></i></a>
   <a href="https://www.instagram.com/jofawebdev/" target="_blank"><i class="fa fa-instagram"></i></a>
   <a href="https://www.pinterest.com/jofawebdev/" target="_blank"><i class="fa fa-pinterest"></i></a>
   <a href="https://www.linkedin.com/in/geoffrey-mbungi-86a6411ba/" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -697,8 +684,8 @@
 
   <!-- To the Top button-->
   <div class="w3-container w3-center">
-  <a href="#" button class="w3-button w3-orange">
-    <i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <a href="#" button class="w3-button w3-theme w3-hover-white">
+    <i class="fa fa-arrow-up w3-margin-right"></i><span class="w3-text-black">To the top</span></a>
 </div>
 <!-- /To the Top button -->
 
@@ -708,8 +695,8 @@
 
 
 <!-- Copyright -->
-<div class="w3-copyright w3-container w3-padding w3-theme w3-center w3-small">
-  &copy;2019 - 2024 Jofawebdev. All Rights Reserved.
+<div class="w3-copyright w3-container w3-padding w3-red w3-center w3-small">
+  Copyright &copy; 2019 - 2024 Jofawebdev. All Rights Reserved.
 </div>
 <!-- /Copyright -->
 
