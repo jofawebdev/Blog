@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
+<title> JOFAWEBDEV - Website Development | IT Consulting | Digital Marketing </title>
 
-
-     
-           <title> JOFAWEBDEV - Website Development | IT Consulting | Digital Marketing </title>
         <!-- This is how you add your image below --> 
   	      <link rel = "icon" type = "image/jpg" href = "https://www.jofawebdev.com/images/web-design-development-blog.jpg">
 
@@ -110,8 +109,8 @@
   <!--Page slideshow Container--> 
   
   <div class="w3-section" style="width:100%">
+    <img class="mySlides" src="images/61be16afc2df9.jpg" alt="web development" style="width:100%">
     <img class="mySlides" src="images/digital-marketing-banner.png" alt="" style="width:100%">
-    <img class="mySlides" src="images/make-digital-banner.jpg" alt="" style="width:100%">
     <img class="mySlides" src="images/upqode-services-web-design.jpeg" alt="" style="width:100%">
     <img class="mySlides" src="images/Web-Design-and-Development-Banner-1030x359.jpg" alt="" style="width:100%">
     <img class="mySlides" src="images/internet-marketing2.jpg" alt="" style="width:100%">
@@ -119,7 +118,7 @@
 
  
  <!--welcome-->
-      <div class="w3-content w3-padding">
+      <div class="w3-auto w3-padding">
      <h4><b> DIGITAL MARKETING <span class="w3-text-red">SERVICES FOR YOUR</span> BUSINESS SUCCESS</b></h4>
      <h5 class="w3-text-theme"><b>Elevate Your Online Presence</b></h5>
 
@@ -156,9 +155,9 @@
 
       <!-- paragraph section-->
       <div class="w3-light-grey">
-      <div class="w3-content w3-padding">
-      <h2><b>Quality Website Design Tailored To Your<span class="w3-text-theme"> Demands And Those Of Your Business</span></b></h2>  
-      <div class="tab-content w3-container">
+      <div class="w3-auto w3-padding-24">
+      <h3><b>QUALITY WEBSITE DESIGN TAILORED TO YOUR<span class="w3-text-theme"> DEMANDS AND THOSE OF YOUR BUSINESS</span></b></h3>  
+      <div class="w3-container">
           <p>As a leading Web Development firm, we know what it takes to boost the growth of your business.
                 We will help you choose the right platform, create an intuitive design to convert sales visits and write code that offers standard security for your online shop.
                 What is setting us apart is our commitment to excellence and our ability to turn complex e-commerce challenges into seamless solutions. Our approach has always
@@ -166,7 +165,7 @@
                 
               <p>If you're looking to launch a new online store or upgrade existing website, we have the experience and expertise to help you get the desired outcome.
                 We create e-Commerce websites using major platforms & CMS, including Wordpress, Woocommerce, Magento, Shopify, Drupal, etc. Our developers will choose the
-                right plaftform, CMS or Framework depending on your business. </p>
+                right plaftform, CMS or Framework depending on your business.</p>
                   
 
 </div>
@@ -184,15 +183,19 @@
 
 <div style="background-image: url(images/backgroundWEB.jpg); background-attachment: fixed;  
   background-size: cover; background-repeat: no-repeat;" style="width: 100%;">
-<div class="w3-content w3-padding-24">
-<h4 class="w3-text-white"><b> We have developed a straightforward website design & development process to ensure that we fulfill and even exceed
-     our clients' expectations</b></h4>
+<div class="w3-content w3-padding-16">
+  <div class="">
+    <h3 class="w3-text-white"><b>Web Design and Development Agency</b></h3>
 
 <div class="w3-row-padding">
+
   <div class="w3-half">
     <div class="w3-tab-content w3-container">
 <a href="https://jofawebdev.com/web%20design%20&%20development" target="">
-  <img src="images/web-design-development-blog.jpg" alt="" style="width:100%"></a>
+  <img src="images/web-design-development-blog.jpg" alt="" style="width:100%"></a><br>
+
+  <p class="w3-text-white"> We have developed a straightforward website design & development process to ensure that we fulfill and even exceed
+     our clients' expectations.</p>
 </div>
 <hr>
 </div>
@@ -209,6 +212,8 @@
       <p style="text-align: left;">Social Media Marketing and Search Engine Optimization (SEO) Integration.</p>
 
 </div>
+</div>
+
 </div>
 
 </div>
@@ -232,7 +237,7 @@
   <div class="w3-third">
       <div class="w3-card-4 w3-white">
         <img src="images/webdesign-coimbatore.jpg" style="width:100%" alt="">
-     <h5 class="w3-text-red w3-center"><b>Custom Website Design & <span class="w3-text-black">Development</span></b></h5>
+     <h5><b><span class="w3-text-red">Custom Website Design</span> & Development</b></h5>
       
       <p>Custom web design tailors websites to specific business needs, ensuring uniqueness in reflecting each brand's identity. We also improve existing online applications' visual appeal, functionality, and usability, resulting in enhanced ROI with streamlined processes, increased conversion rates, and reduced maintenance costs.</p>
 
@@ -382,7 +387,7 @@
 </div>
 <hr>
 
-<div class="w3-content w3-container w3-padding">
+<div class="w3-auto w3-container w3-padding">
       <p style="text-align: center;">From landing pages to product descriptions and blog posts, our writers will craft a compelling copy that accurately represents your brand and drives conversions.
    We have the skills and experience to deliver high-quality websites that drive results. Please work with us and get well-written, engaging web content optimized for success. We shall train
     your team with website management skills to make changes whenever possible.</p>
@@ -392,6 +397,7 @@
 <!-- First Photo Grid-->
 <div class="w3-content w3-padding-32">
             <div class="w3-row-padding">
+              
               <div class="w3-third w3-hover-opacity">
                 <div class="w3-container w3-padding-small">
                 <a href="https://sinepowerelectrics.com/" target="_blank">
@@ -551,7 +557,7 @@
       </ul>
     </div>
 
-    <div class="w3-third">
+    <div class="w3-third w3-margin-bottom">
       <ul class="w3-ul w3-border w3-white w3-center w3-hover-red">
         <li class="w3-red w3-xlarge w3-padding-32">Premium</li>
         <li class="w3-padding-16">Web Design & Development</li>
