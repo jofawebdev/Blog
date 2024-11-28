@@ -1,0 +1,15 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+    <h2>Posts in {{ category_name }}</h2>
+    <ul class="list-group">
+        {% for post in posts %}
+            <li class="list-group-item">
+                <a href="{% url 'post-detail' post.id %}">{{ post.title }}</a>
+                <p>Posted on {{ post.date_posted|date:"M d, Y" }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+    {% if not posts %}
+        <p>No posts available in this category.</p>
+    {% endif %}
+{% endblock content %}

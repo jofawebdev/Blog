@@ -1,0 +1,120 @@
+/* General Body Styling */
+body {
+    background-color: #fafafa;
+    color: #333;
+    margin-top: 5rem;
+    font-family: Arial, sans-serif;
+}
+
+/* Headings Styling */
+h1, h2, h3, h4, h5, h6 {
+    color: #444;
+}
+
+/* Unordered List Styling */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background Steel Color Class */
+.bg-steel {
+    background-color: #5f788a;
+}
+
+/* Navbar link Styling */
+.site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+    transition: color 0.3s ease; /* Added smooth transition for hover effect */
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+
+/* Content Section Styling */
+.content-section {
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1); /* Added subtle shadow for modern UI feel */
+}
+
+/* Media Container Styling */
+.media {
+    display: flex; /* Ensures horizontal alignment of children */
+    align-items: flex-start; /* Aligns items to the top */
+}
+
+/* Article Image Styling */
+.article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px; /* Spacing between image and text */
+    object-fit: cover; /* Ensures images scale properly without distortion */
+    border-radius: 50%; /* Circular profile image */
+}
+
+/* Media Body Styling */
+.media-body {
+    flex: 1; /* Allows the text container to take up the remaining space */
+}
+
+/* Article Metadata Styling */
+.article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Article Title Styling */
+.article-title {
+    color: #444;
+}
+
+a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+}
+
+/* Article Content Styling */
+.article-content {
+    white-space: pre-line;
+    font-size: 1rem; /* Added a standard font size for consistency */
+}
+
+/* SVG Icons in Articles */
+.article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    fill: currentColor; /* Ensures SVGs inherit the text color */
+}
+
+/* Account Image Styling */
+.account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+    object-fit: cover; /* Prevents image distortion */
+    border-radius: 50%; /* Circular image for profile pictures */
+}
+
+/* Account Heading Styling */
+.account-heading {
+    font-size: 2.5rem;
+    font-weight: 700; /* Added font weight for better emphasis */
+    color: #333;
+}
