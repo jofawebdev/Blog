@@ -1,10 +1,9 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth.views import LoginView
 from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
-from blog.models import Post, Category
-
-# Helper Function to get sidebar data
+from blog.views import get_sidebar_context
 
 
 def register(request):
@@ -17,7 +16,11 @@ def register(request):
             return redirect('login')
     else:
         form = UserRegisterForm()
-    return render(request, 'users/register.html', {'form': form})
+    context = {
+        'form': form,
+        **get_sidebar_context() # Include sidebar data
+    }
+    return render(request, 'users/register.html', context)
 
 
 @login_required
@@ -37,7 +40,18 @@ def profile(request):
 
     context = {
         'u_form': u_form,
-        'p_form': p_form
+        'p_form': p_form,
+        **get_sidebar_context() # Include sidebar data
+        
     }
 
     return render(request, 'users/profile.html', context)
+
+
+
+
+class CustomLoginView(LoginView):
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context.update(get_sidebar_context()) # Add sidebar data
+        return context

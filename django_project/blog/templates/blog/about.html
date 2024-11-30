@@ -1,5 +1,28 @@
 {% extends "blog/base.html" %}
 
 {% block content %}
-    <h1>About Page</h1>
+    <h1>About Me</h1>
+    <p>I am a passionate Python Web Developer with experience in building robust web applications and APIs. Below is more about my expertise and what people say about my work:</p>
+
+    <h2>Skills</h2>
+    <ul>
+        {% for skill in skills %}
+            <li>
+                <strong>{{ skill.name }}</strong>: {{ skill.description }} 
+                <br><em>Proficiency:</em> {{ skill.proficiency }}/10
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h2>Testimonials</h2>
+    <ul>
+        {% for testimonial in testimonials %}
+            <li>
+                <blockquote>
+                    "{{ testimonial.content }}"
+                    <footer>- {{ testimonial.author }}, {{ testimonial.date_posted|date:"F j, Y" }}</footer>
+                </blockquote>
+            </li>
+        {% endfor %}
+    </ul>
 {% endblock content %}

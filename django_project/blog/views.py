@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
 from django.contrib.auth.models import User
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
-from .models import Post, Category
+from .models import Post, Category, Skill, Testimonial
 
 
 # Helper function to get sidebar data
@@ -144,4 +144,10 @@ class CategoryPostListView(ListView):
 
 
 def about(request):
-    return render(request, 'blog/about.html', {'title': 'About'})
+    context = {
+        'title': 'About',
+        'skills': Skill.objects.all(),
+        'testimonials': Testimonial.objects.all(),
+        **get_sidebar_context()  # Include the sidebar data
+    }
+    return render(request, 'blog/about.html', context)
